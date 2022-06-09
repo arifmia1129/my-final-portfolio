@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import Project from './Project';
 
 const Projects = () => {
@@ -18,6 +19,9 @@ const Projects = () => {
                         project={project}
                     />)
                 }
+            </div>
+            <div className='flex justify-center items-center my-10'>
+                <Link className="btn bg-gradient-to-r from-secondary to-primary text-white font-bold uppercase border-0" to="/allproject">See All Project</Link>
             </div>
         </div>
     );
