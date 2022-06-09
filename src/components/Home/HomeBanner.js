@@ -3,7 +3,7 @@ import image from "../../images/arif.jpg";
 
 const HomeBanner = () => {
     return (
-        <div class="hero  bg-primary">
+        <div class="hero bg-primary mb-10">
             <div class="hero-content flex-col lg:flex-row">
                 <img width={240} heighg={240} src={image} class="max-w-sm rounded-lg shadow-2xl" alt='' />
                 <div className='text-white'>
