@@ -3,12 +3,12 @@ import { TiTick } from 'react-icons/ti';
 const Project = ({ project }) => {
     const { name, technology, link } = project;
     return (
-        <div class="card bg-base-100 shadow-xl">
+        <div className="card bg-base-100 shadow-xl">
             <div className='w-full px-3'>
                 <iframe title='my' src={link} className='w-full'></iframe>
             </div>
-            <div class="card-body">
-                <h2 class="text-2xl font-bold text-center mb-5">{name}</h2>
+            <div className="card-body">
+                <h2 className="text-2xl font-bold text-center mb-5">{name}</h2>
                 <div className='grid grid-cols-3'>
                     {
                         technology.map((s, index) => <p
