@@ -14,9 +14,8 @@ const Navbar = () => {
                     </label>
                     <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         <li><NavLink to="/">About</NavLink></li>
-                        <li><NavLink to="/projects">Projects</NavLink></li>
-                        <li><NavLink to="/projects">Projects</NavLink></li>
-                        <li><NavLink to="/projects">Projects</NavLink></li>
+                        <li><NavLink to="/allproject">Projects</NavLink></li>
+                        <li><NavLink to="/contact">Contact</NavLink></li>
                     </ul>
                 </div>
                 <div className='flex justify-around items-center'>
@@ -34,9 +33,8 @@ const Navbar = () => {
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">
                     <li><NavLink to="/">About</NavLink></li>
-                    <li><NavLink to="/projects">Projects</NavLink></li>
-                    <li><NavLink to="/projects">Projects</NavLink></li>
-                    <li><NavLink to="/projects">Projects</NavLink></li>
+                    <li><NavLink to="/allproject">Projects</NavLink></li>
+                    <li><NavLink to="/contact">Contact</NavLink></li>
                 </ul>
             </div>
             <div class="navbar-end">
