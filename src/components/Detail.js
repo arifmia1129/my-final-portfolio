@@ -6,7 +6,13 @@ const Detail = () => {
         {
             id: 1,
             name: "A&B-Group",
-            description: "This is full stack website that for manufacturer company.",
+            description: [
+                "Display navbar, banner, products, review, footer on home page",
+                "Click purchase button for confirm order",
+                "Go to my orders page under dashboard route you can see your all orders and also payment via card",
+                "Receive email when you confirm order and complete payment",
+                "use firebase for authentication"
+            ],
             technology: [
                 "react.js",
                 "firebase",
@@ -32,7 +38,13 @@ const Detail = () => {
         {
             id: 2,
             name: "Laptop-City",
-            description: "This is full stack website that for management warehouse.",
+            description: [
+                "Home route display banner, all products details, show 6 items with details, use pie chart so that its display product stock.",
+                "nventory/:id route work with single product. If you click delivered btn quantity decrement and use input field for added quantity",
+                "blog route display four question answer.",
+                "manage-items route display all product and you can do delete operation in products.",
+                "add-item route give you a form so that you can insert your data to database"
+            ],
             technology: [
                 "react.js",
                 "firebase",
@@ -54,7 +66,12 @@ const Detail = () => {
         {
             id: 3,
             name: "Quikie App",
-            description: "This is full stack website that for manage public crypto api and saved data to own database.",
+            description: [
+                "Used three hero cards draggable and rearrangeable.",
+                "[ Crypto / Stock Details Table] Retrieve and show details - Company/Crypto Name, Stock/Crypto Symbol, Market Cap / Current Price of the stocks/crypto in a 5-row table with pagination.",
+                "[ Crypto / Stock Details Table] Search using Company/Crypto Name and display result stocks in the table, Save Data.Saved Data Table] Delete & Retrieve Data using MongoDB and Node-Express API endpoints.",
+                "Navigation between Stock/Crypto Details Table page (/home) and Saved Data Tables Page(/view)."
+            ],
             technology: [
                 "react.js",
                 "tailwind",
@@ -76,7 +93,13 @@ const Detail = () => {
         {
             id: 4,
             name: "Master To Do",
-            description: "This is full stack website that for manage to do list.",
+            description: [
+                "You can added your task with description.",
+                "Display your task that you added.",
+                "After complete your task you can pressed complete button.",
+                "Also you can delete your task.",
+                "See toast for delete, complete and new added task."
+            ],
             technology: [
                 "react.js",
                 "firebase",
@@ -97,7 +120,13 @@ const Detail = () => {
         },
         {
             id: 5,
-            description: "This is front end website that make sure authentication with use google firebase.",
+            description: [
+                "Added banner in Home page",
+                "Use React Route",
+                "Display Service Card in Home page",
+                "Also added blogs and about route",
+                "use firebase for authentication"
+            ],
             name: "Doctor Khana",
             technology: [
                 "react.js",
@@ -119,7 +148,13 @@ const Detail = () => {
         {
             id: 6,
             name: "Product Analyst",
-            description: "This is front end website that for analysis the product and display user review. Make sure route with use react route.",
+            description: [
+                "Home page banner.",
+                "Display 3 customer review in Home page",
+                "Use React Recharts for show chart in Dashboard Route",
+                "Also added Reviews, Blogs and About Route",
+                "Use active Route with React Router"
+            ],
             technology: [
                 "react.js",
                 "react route",
@@ -139,7 +174,13 @@ const Detail = () => {
         {
             id: 7,
             name: "Perfect Course Selector",
-            description: "This is front end website for select the randomly from selected four course.",
+            description: [
+                "Display 12 courses",
+                "You can chose 4 course",
+                "After clicked Perfect Course for You Button you can see a course from selected 4 course",
+                "Randomly course select.",
+                "Use chose again button and answer for three questions."
+            ],
             technology: [
                 "react.js",
                 "react route",
@@ -157,7 +198,13 @@ const Detail = () => {
         },
         {
             id: 8,
-            description: "This is front end website for manage income, saving and expense",
+            description: [
+                "Use 5 input filed and two button",
+                "You can added income, expenses",
+                "Expenses for food, rent and clothes",
+                "After clicked calculate button you can see total expenses and available balance",
+                "After clicked save button you can see saving amount and remaining balance."
+            ],
             name: "Money Master",
             technology: [
                 "Javascript",
@@ -189,7 +236,15 @@ const Detail = () => {
             </div>
             <div className='mb-3'>
                 <h2 className='text-xl font-bold text-primary'>Description:</h2>
-                <p>{description}</p>
+                <div className='px-2'>
+                    {
+                        description.map((s, index) => <p
+                            key={index}
+                            className='flex items-center'>
+                            <TiTick className='text-secondary' /> {s}
+                        </p>)
+                    }
+                </div>
             </div>
             <div className='mb-3'>
                 <h2 className='text-xl font-bold text-primary'>Technology:</h2>
