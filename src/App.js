@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import AllProjects from './components/AllProjects/AllProjects';
+import Blogs from './components/Blogs';
 import Contact from './components/Contact';
 import Home from './components/Home/Home';
 import Footer from './components/Shared/Footer';
@@ -8,11 +9,12 @@ import Navbar from './components/Shared/Navbar';
 
 function App() {
   return (
-    <div>
+    <div className='max-w-7xl mx-auto px-2 lg:px-0'>
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/allproject' element={<AllProjects />} />
+        <Route path='/blogs' element={<Blogs />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
       <Footer />

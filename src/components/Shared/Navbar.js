@@ -34,6 +34,7 @@ const Navbar = () => {
                 <ul className="menu menu-horizontal p-0">
                     <li><NavLink to="/">About</NavLink></li>
                     <li><NavLink to="/allproject">Projects</NavLink></li>
+                    <li><NavLink to="/blogs">Blogs</NavLink></li>
                     <li><NavLink to="/contact">Contact</NavLink></li>
                 </ul>
             </div>
