@@ -3,6 +3,7 @@ import './App.css';
 import AllProjects from './components/AllProjects/AllProjects';
 import Blogs from './components/Blogs';
 import Contact from './components/Contact';
+import Detail from './components/Detail';
 import Home from './components/Home/Home';
 import Footer from './components/Shared/Footer';
 import Navbar from './components/Shared/Navbar';
@@ -16,6 +17,7 @@ function App() {
         <Route path='/allproject' element={<AllProjects />} />
         <Route path='/blogs' element={<Blogs />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/detail/:id' element={<Detail />} />
       </Routes>
       <Footer />
     </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import { FiGithub } from 'react-icons/fi';
 import { ImLinkedin2 } from 'react-icons/im';
 import { BsStackOverflow } from 'react-icons/bs';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -15,6 +15,7 @@ const Navbar = () => {
                     <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-gradient-to-r from-secondary to-primary text-white font-bold uppercase border-0 rounded-box w-52">
                         <li><NavLink to="/">About</NavLink></li>
                         <li><NavLink to="/allproject">Projects</NavLink></li>
+                        <li><NavLink to="/blogs">Blogs</NavLink></li>
                         <li><NavLink to="/contact">Contact</NavLink></li>
                     </ul>
                 </div>
