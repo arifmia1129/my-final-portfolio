@@ -2,17 +2,17 @@ import React from 'react';
 import { TiTick } from 'react-icons/ti';
 import { useNavigate } from 'react-router-dom';
 const SingleProject = ({ project }) => {
-    const { id, name, technology, img, description } = project;
+    const { id, name, technology, img, shortDescription } = project;
     const navigate = useNavigate();
     return (
         <div className="card bg-base-100 shadow-xl">
-            <div className='w-full px-3 h-32 mb-5'>
-                <img src={img[0]} alt="" />
+            <div className='w-full px-3 h-32 mb-5 overflow-y-scroll'>
+                <img className='w-full' src={img[0]} alt="" />
             </div>
             <div className="card-body">
                 <h2 className="text-xl font-bold text-center mb-5">{name}</h2>
                 <div className='h-24'>
-                    <p>{description}</p>
+                    <p>{shortDescription}</p>
                 </div>
                 <div className='grid grid-cols-2'>
                     {

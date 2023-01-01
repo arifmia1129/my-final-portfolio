@@ -1,8 +1,90 @@
 [
     {
-        "id": "1",
-        "name": "A&B-Group",
-        "description": "This is full stack website that for manufacturer company.",
+        "id": 1,
+        "name": "BD FAST Website",
+        "shortDescription": "Easy and fast way to apply for birth certificates for Bangladeshi citizens.",
+        "description": [
+            "Easy and fast way to apply for new birth registration certificates for Bangladeshi citizens",
+            "Easy and fast way to apply for correction of old birth registration certificates for Bangladeshi citizens"
+        ],
+        "technology": [
+            "react.js",
+            "Javascript",
+            "tailwind",
+            "daisyui",
+            "react route",
+            "react toastify"
+        ],
+        "img": [
+            "https://i.ibb.co/hyxyygK/bd-fast-1.png",
+            "https://i.ibb.co/stBGSx0/bd-fast-2.png"
+        ],
+        "link": [
+            {
+                "name": "Live Site",
+                "link": "https://web.bdfast.app/"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "BD FAST Mobile Application",
+        "shortDescription": "Easy and fast way to apply for birth certificates for Bangladeshi citizens by using mobile application.",
+        "description": [
+            "Easy and fast way to apply for new birth registration certificates for Bangladeshi citizens",
+            "Easy and fast way to apply for correction of old birth registration certificates for Bangladeshi citizens",
+            "Upload document by using mobile camera to take documents picture"
+        ],
+        "technology": [
+            "react native",
+            "expo",
+            "Javascript"
+        ],
+        "img": [
+            "https://play-lh.googleusercontent.com/v6rQ67vT3JRlsxctovRKGBw2Af2ML1Xrc9iDRUvACIcRNaJiPJbQ8fgfIrDh-WP69_c=w2560-h1440-rw",
+            "https://play-lh.googleusercontent.com/AP7PLLB1VQAgX72NEsd5UswjDEglaeM3ywFrVn2S12Twb7APf2Vyxq0KRLo0ZkwJUa4=w526-h296-rw",
+            "https://play-lh.googleusercontent.com/hyxHEoOCw_n7cnsk7YxWGvGamJ74999Tkk9HlTJR-rm4B83I7R2UXPUCs4dq3aPoFQ=w2560-h1440-rw"
+        ],
+        "link": [
+            {
+                "name": "Play Store",
+                "link": "https://play.google.com/store/apps/details?id=app.bdfast.application"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Digital Holding Assessment",
+        "shortDescription": "Digital way of tax collection in Bangladesh.",
+        "description": [
+            "Advantage of offline application saving without internet.",
+            "Facility to submit application online at convenient time.",
+            "Upload document by using mobile camera to take documents picture"
+        ],
+        "technology": [
+            "react native",
+            "expo",
+            "Javascript"
+        ],
+        "img": [
+            "https://play-lh.googleusercontent.com/PmVYgRkqmkRMe_rRHhtjtRXuPDDwANmYOzWtN3agG3cpqAe69NKSRD3M3FbWOPC__6oJ=w2560-h1440-rw"
+        ],
+        "link": [
+            {
+                "name": "Play Store",
+                "link": "https://play.google.com/store/apps/details?id=com.sebaautomation.digitalholdingassessment"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Life Care Health",
+        "shortDescription": "This is full stack website that for hospital management",
+        "description": [
+            "Users can book appointments after login in.",
+            "After booking an appointment users can see this appointment with details in their own’s dashboard.",
+            "Users also can cancel or pay with stripe for appointments from the dashboard."
+        ],
         "technology": [
             "react.js",
             "firebase",
@@ -15,20 +97,78 @@
             "stripe"
         ],
         "img": [
-            "https://i.ibb.co/kXsjgnX/ab-1.jpg",
-            "https://i.ibb.co/QjrzV8Y/ab-2.jpg",
-            "https://i.ibb.co/zQyM0jF/ab-3.jpg"
+            "https://i.ibb.co/0svnHJH/life-care-1.png",
+            "https://i.ibb.co/ccMbxMV/life-care-2.png",
+            "https://i.ibb.co/jM0DQjy/life-care-3.png"
         ],
         "link": [
-            "https://a-b-group.web.app",
-            "https://github.com/arifmia1129/a-b-group-full-stack-manufacturer-website-client-side",
-            "https://github.com/arifmia1129/a-b-group-full-stack-manufacturer-website-server-side"
+            {
+                "name": "Live Site",
+                "link": "https://lifecare-health.web.app"
+            },
+            {
+                "name": "Github Client",
+                "link": "https://github.com/arifmia1129/lifecare-client"
+            },
+            {
+                "name": "Github Server",
+                "link": "https://github.com/arifmia1129/lifecare-server"
+            }
         ]
     },
     {
-        "id": "2",
+        "id": 5,
+        "name": "A&B-Group",
+        "shortDescription": "This is full stack website that for manufacturer company.",
+        "description": [
+            "Display navbar, banner, products, review, footer on home page",
+            "Click purchase button for confirm order",
+            "Go to my orders page under dashboard route you can see your all orders and also payment via card",
+            "Receive email when you confirm order and complete payment",
+            "use firebase for authentication"
+        ],
+        "technology": [
+            "react.js",
+            "firebase",
+            "node.js",
+            "express.js",
+            "mongodb",
+            "tailwind",
+            "daisyui",
+            "sendgrid",
+            "stripe"
+        ],
+        "img": [
+            "https://i.ibb.co/mSkFsHQ/ab-group-1.png",
+            "https://i.ibb.co/yyrnfb4/ab-group-2.png",
+            "https://i.ibb.co/6vjW1Pg/ab-group-3.png"
+        ],
+        "link": [
+            {
+                "name": "Live Site",
+                "link": "https://a-b-group.web.app"
+            },
+            {
+                "name": "Github Client",
+                "link": "https://github.com/arifmia1129/a-b-group-full-stack-manufacturer-website-client-side"
+            },
+            {
+                "name": "Github Server",
+                "link": "https://github.com/arifmia1129/a-b-group-full-stack-manufacturer-website-server-side"
+            }
+        ]
+    },
+    {
+        "id": 6,
         "name": "Laptop-City",
-        "description": "This is full stack website that for management warehouse.",
+        "shortDescription": "This is full stack website that for management warehouse.",
+        "description": [
+            "Home route display banner, all products details, show 6 items with details, use pie chart so that its display product stock.",
+            "nventory/:id route work with single product. If you click delivered btn quantity decrement and use input field for added quantity",
+            "blog route display four question answer.",
+            "manage-items route display all product and you can do delete operation in products.",
+            "add-item route give you a form so that you can insert your data to database"
+        ],
         "technology": [
             "react.js",
             "firebase",
@@ -37,20 +177,59 @@
             "mongodb"
         ],
         "img": [
-            "https://i.ibb.co/VmGG1t8/laptop-1.jpg",
-            "https://i.ibb.co/nQ8mS3C/laptop-2.jpg",
-            "https://i.ibb.co/K5Z8MFR/laptop-3.jpg"
+            "https://i.ibb.co/V9p82Z4/laptop-city-1.png",
+            "https://i.ibb.co/zh2HXdD/laptop-city-2.png",
+            "https://i.ibb.co/Hhc2Kmk/laptop-city-3.png"
         ],
         "link": [
-            "https://laptop-city-inventory.web.app",
-            "https://github.com/arifmia1129/a-b-group-full-stack-manufacturer-website-client-side",
-            "https://github.com/arifmia1129/a-b-group-full-stack-manufacturer-website-server-side"
+            {
+                "name": "Live Site",
+                "link": "https://laptop-city-inventory.web.app"
+            },
+            {
+                "name": "Github Client",
+                "link": "https://github.com/arifmia1129/laptop-city-client"
+            },
+            {
+                "name": "Github Server",
+                "link": "https://github.com/arifmia1129/laptop-city-server"
+            }
         ]
     },
     {
-        "id": "3",
+        "id": 7,
+        "name": "Job Portal (Node JS, Express JS and MongoDB Project)",
+        "shortDescription": "Difference functionality for candidate, hiring manager and admin role.",
+        "description": [
+            "As a Hiring Manage create a new job, get previously created jobs, get single job details, and update job details.",
+            "As a Candidate can apply for a job with upload a CV/Resume in pdf format.",
+            "Users can signup and sign in. As an Admin can change the user role."
+        ],
+        "technology": [
+            "node.js",
+            "express.js",
+            "mongodb"
+        ],
+        "img": [
+            "https://images.unsplash.com/photo-1635350736475-c8cef4b21906?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        ],
+        "link": [
+            {
+                "name": "Github Code",
+                "link": "https://github.com/arifmia1129/job-portal-backend"
+            }
+        ]
+    },
+    {
+        "id": 8,
         "name": "Quikie App",
-        "description": "This is full stack website that for manage public crypto api and saved data to own database.",
+        "shortDescription": "This is full stack website that for manage public crypto api and saved data to own database.",
+        "description": [
+            "Used three hero cards draggable and rearrangeable.",
+            "[ Crypto / Stock Details Table] Retrieve and show details - Company/Crypto Name, Stock/Crypto Symbol, Market Cap / Current Price of the stocks/crypto in a 5-row table with pagination.",
+            "[ Crypto / Stock Details Table] Search using Company/Crypto Name and display result stocks in the table, Save Data.Saved Data Table] Delete & Retrieve Data using MongoDB and Node-Express API endpoints.",
+            "Navigation between Stock/Crypto Details Table page (/home) and Saved Data Tables Page(/view)."
+        ],
         "technology": [
             "react.js",
             "tailwind",
@@ -59,20 +238,36 @@
             "mongodb"
         ],
         "img": [
-            "https://i.ibb.co/XbPV6fy/quikie-1.jpg",
-            "https://i.ibb.co/zm6ymMB/quikie-2.jpg",
-            "https://i.ibb.co/dkSM3Fp/quikie-3.jpg"
+            "https://i.ibb.co/nmWkgD9/quikie-1.png",
+            "https://i.ibb.co/0FbD84X/quikie-2.png",
+            "https://i.ibb.co/VDXzjRG/quikie-3.png"
         ],
         "link": [
-            "https://quikie-app.netlify.app",
-            "https://github.com/arifmia1129/a-b-group-full-stack-manufacturer-website-client-side",
-            "https://github.com/arifmia1129/a-b-group-full-stack-manufacturer-website-server-side"
+            {
+                "name": "Live Site",
+                "link": "https://quikie-app.netlify.app"
+            },
+            {
+                "name": "Github Client",
+                "link": "https://github.com/arifmia1129/quikie-app-client"
+            },
+            {
+                "name": "Github Server",
+                "link": "https://github.com/arifmia1129/quikie-app-server"
+            }
         ]
     },
     {
-        "id": "4",
+        "id": 9,
         "name": "Master To Do",
-        "description": "This is full stack website that for manage to do list.",
+        "shortDescription": "This is full stack website that for manage to do list.",
+        "description": [
+            "You can added your task with description.",
+            "Display your task that you added.",
+            "After complete your task you can pressed complete button.",
+            "Also you can delete your task.",
+            "See toast for delete, complete and new added task."
+        ],
         "technology": [
             "react.js",
             "firebase",
@@ -81,19 +276,35 @@
             "mongodb"
         ],
         "img": [
-            "https://i.ibb.co/XzrcFYF/todo-1.jpg",
-            "https://i.ibb.co/b2KyT3M/todo-2.jpg",
-            "https://i.ibb.co/yP7Vs7B/todo-3.jpg"
+            "https://i.ibb.co/LpmgNtd/to-do-1.png",
+            "https://i.ibb.co/wBLW953/to-do-2.png",
+            "https://i.ibb.co/Q9Rn50g/to-do-3.png"
         ],
         "link": [
-            "https://master-to-do.web.app",
-            "https://github.com/arifmia1129/a-b-group-full-stack-manufacturer-website-client-side",
-            "https://github.com/arifmia1129/a-b-group-full-stack-manufacturer-website-server-side"
+            {
+                "name": "Live Site",
+                "link": "https://master-to-do.web.app"
+            },
+            {
+                "name": "Github Client",
+                "link": "https://github.com/arifmia1129/master-to-do-client"
+            },
+            {
+                "name": "Github Server",
+                "link": "https://github.com/arifmia1129/master-to-do-server"
+            }
         ]
     },
     {
-        "id": "5",
-        "description": "This is front end website that make sure authentication with use google firebase.",
+        "id": 10,
+        "shortDescription": "This is front end website that make sure authentication with use google firebase.",
+        "description": [
+            "Added banner in Home page",
+            "Use React Route",
+            "Display Service Card in Home page",
+            "Also added blogs and about route",
+            "use firebase for authentication"
+        ],
         "name": "Doctor Khana",
         "technology": [
             "react.js",
@@ -103,20 +314,32 @@
             "react toastify"
         ],
         "img": [
-            "https://i.ibb.co/njnsK7F/doctorkhana-1.jpg",
-            "https://i.ibb.co/Y0bjDZ5/doctorkhana-2.jpg",
-            "https://i.ibb.co/SrDGmsL/doctorkhana-3.jpg"
+            "https://i.ibb.co/hKX4wLS/doctor-khana-1.png",
+            "https://i.ibb.co/WFSbDdf/doctor-khana-2.png",
+            "https://i.ibb.co/XY3dc7B/doctor-khana-3.png"
         ],
         "link": [
-            "https://doctor-khana.web.app",
-            "https://github.com/arifmia1129/a-b-group-full-stack-manufacturer-website-client-side",
-            "https://github.com/arifmia1129/a-b-group-full-stack-manufacturer-website-server-side"
+            {
+                "name": "Live Site",
+                "link": "https://doctor-khana.web.app"
+            },
+            {
+                "name": "Github Client",
+                "link": "https://github.com/arifmia1129/doctor-khana"
+            }
         ]
     },
     {
-        "id": "6",
+        "id": 11,
         "name": "Product Analyst",
-        "description": "This is front end website that for analysis the product and display user review. Make sure route with use react route.",
+        "shortDescription": "This is front end website that for analysis the product and display user review. Make sure route with use react route.",
+        "description": [
+            "Home page banner.",
+            "Display 3 customer review in Home page",
+            "Use React Recharts for show chart in Dashboard Route",
+            "Also added Reviews, Blogs and About Route",
+            "Use active Route with React Router"
+        ],
         "technology": [
             "react.js",
             "react route",
@@ -124,39 +347,63 @@
             "tailwind"
         ],
         "img": [
-            "https://i.ibb.co/6NXTKsp/productanalyst-1.jpg",
-            "https://i.ibb.co/HPPmP4f/productanalyst-2.jpg",
-            "https://i.ibb.co/QKMcHby/productanalyst-3.jpg"
+            "https://i.ibb.co/jyxKk0q/product-analyst-1.png",
+            "https://i.ibb.co/hXhKpSV/product-analyst-2.png",
+            "https://i.ibb.co/g3JzhLN/product-analyst-3.png"
         ],
         "link": [
-            "https://project-analyst-react-project.netlify.app",
-            "https://github.com/arifmia1129/a-b-group-full-stack-manufacturer-website-client-side",
-            "https://github.com/arifmia1129/a-b-group-full-stack-manufacturer-website-server-side"
+            {
+                "name": "Live Site",
+                "link": "https://project-analyst-react-project.netlify.app"
+            },
+            {
+                "name": "Github Client",
+                "link": "https://github.com/arifmia1129/project-analysis"
+            }
         ]
     },
     {
-        "id": "7",
+        "id": 12,
         "name": "Perfect Course Selector",
-        "description": "This is front end website for select the randomly from selected four course.",
+        "shortDescription": "This is front end website for select the randomly from selected four course.",
+        "description": [
+            "Display 12 courses",
+            "You can chose 4 course",
+            "After clicked Perfect Course for You Button you can see a course from selected 4 course",
+            "Randomly course select.",
+            "Use chose again button and answer for three questions."
+        ],
         "technology": [
             "react.js",
             "react route",
             "bootstrap"
         ],
         "img": [
-            "https://i.ibb.co/6smWFzR/courseselector-1.jpg",
-            "https://i.ibb.co/Nt7NBZG/courseselector-2.jpg",
-            "https://i.ibb.co/p2vq0Sb/courseselector-3.jpg"
+            "https://i.ibb.co/qBr8gFm/course-selector-1.png",
+            "https://i.ibb.co/hBDZ6T6/course-selector-2.png",
+            "https://i.ibb.co/JKwbqK7/course-selector-3.png"
         ],
         "link": [
-            "https://perfect-course-selector-react-project-assignment-8.netlify.app",
-            "https://github.com/arifmia1129/a-b-group-full-stack-manufacturer-website-client-side",
-            "https://github.com/arifmia1129/a-b-group-full-stack-manufacturer-website-server-side"
+            {
+                "name": "Live Site",
+                "link": "https://perfect-course-selector-react-project-assignment-8.netlify.app"
+            },
+            {
+                "name": "Github Client",
+                "link": "https://github.com/arifmia1129/perfect-course-selector"
+            }
         ]
     },
     {
-        "id": "8",
-        "description": "This is front end website for manage income, saving and expense",
+        "id": 13,
+        "shortDescription": "This is front end website for manage income, saving and expense.",
+        "description": [
+            "Use 5 input filed and two button",
+            "You can added income, expenses",
+            "Expenses for food, rent and clothes",
+            "After clicked calculate button you can see total expenses and available balance",
+            "After clicked save button you can see saving amount and remaining balance."
+        ],
         "name": "Money Master",
         "technology": [
             "Javascript",
@@ -165,14 +412,46 @@
             "bootstrap"
         ],
         "img": [
-            "https://i.ibb.co/hVDkCDN/manager-1.jpg",
-            "https://i.ibb.co/YhGrXLg/manager-2.jpg",
-            "https://i.ibb.co/kgYG2JT/manager-3.jpg"
+            "https://i.ibb.co/bBTtwsQ/money-master-1.png",
+            "https://i.ibb.co/JtqcdC8/money-master-2.png",
+            "https://i.ibb.co/Gpqfgqn/money-master-3.png"
         ],
         "link": [
-            "https://money-master-js-project.netlify.app",
-            "https://github.com/arifmia1129/a-b-group-full-stack-manufacturer-website-client-side",
-            "https://github.com/arifmia1129/a-b-group-full-stack-manufacturer-website-server-side"
+            {
+                "name": "Live Site",
+                "link": "https://money-master-js-project.netlify.app"
+            },
+            {
+                "name": "Github Client",
+                "link": "https://github.com/arifmia1129/money-master"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "shortDescription": "My college clone website.",
+        "description": [
+            "Display my college information in this website"
+        ],
+        "name": "VTTI (my college website)",
+        "technology": [
+            "Javascript",
+            "HTML",
+            "CSS",
+            "bootstrap"
+        ],
+        "img": [
+            "https://i.ibb.co/pdY9trN/vtti-1.png"
+        ],
+        "link": [
+            {
+                "name": "Live Site",
+                "link": "https://vtti-gov-bd.netlify.app"
+            },
+            {
+                "name": "Github Client",
+                "link": "https://github.com/arifmia1129/vtti-college-website-project"
+            }
         ]
     }
 ]

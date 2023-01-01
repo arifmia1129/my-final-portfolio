@@ -42,7 +42,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a target="_blank" rel="noreferrer" href='https://drive.google.com/file/d/1CkdgzTrUd-Du7yCGDF9Ed_rlNLmud9N1/view?usp=sharing' className="border-white border-2 p-1 rounded-lg">Resume</a>
+                <a target="_blank" rel="noreferrer" href='https://drive.google.com/file/d/11irnh5Jkc602fltInnGRIenQofZeysb0/view?usp=sharing' className="border-white border-2 p-1 rounded-lg">Resume</a>
             </div>
         </div>
     );
