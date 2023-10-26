@@ -7,8 +7,8 @@ module.exports = {
     themes: [
       {
         mytheme: {
-          primary: "#0FCFEC",
-          secondary: "#19D3AE",
+          primary: "#828DDC",
+          secondary: "#8ABEE6",
           accent: "#3A4256",
           neutral: "#3d4451",
           "base-100": "#ffffff",
@@ -19,4 +19,4 @@ module.exports = {
     ],
   },
   plugins: [require("daisyui")],
-}
+};
