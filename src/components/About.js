@@ -1,39 +1,54 @@
-import React from 'react';
+import React from "react";
 import img from "../images/arif.png";
 
 const About = () => {
-    return (
-        <div className='my-10'>
-            <div>
-                <p className='font-bold'>Me:</p>
-                <div className='flex items-center'>
-                    <img width={60} height={60} src={img} alt="" />
-                    <p className='ml-3'>
-                        I am Arif. I am a MERN Stack developer. I have been working on the web for about 1 year. I have already done many projects. I enjoy working with the web. I want to be more proficient at it and work on it for a long time.
-                    </p>
-                </div>
-            </div>
-            <p className='text-xl font-bold my-3 text-center'>"I don't have all the skills but I'm ready to learn any skill I need."</p>
-            <div className='my-3'>
-                <p className='font-bold'>Interested Technology:</p>
-                <p>
-                    React JS, Javascript, Node JS, Express JS, MongoDB, HTML, CSS, Firebase etc.
-                </p>
-            </div>
-            <div className='my-3'>
-                <p className='font-bold'>Company of Choice:</p>
-                <p>
-                    I want to work in companies where I can apply my skills to the maximum and at the same time improve my skills constantly.
-                </p>
-            </div>
-            <div className='my-3'>
-                <p className='font-bold'>Hobby:</p>
-                <p>
-                    Reading books | Learning something new | Organizing something
-                </p>
-            </div>
-        </div>
-    );
+  return (
+    <div className="p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12 min-h-screen">
+      <h2 className="text-2xl font-bold text-center mb-4">About Me</h2>
+      <div className="flex flex-col sm:flex-row justify-center items-center mb-6">
+        <img
+          className="w-40 h-40 rounded-full object-cover mx-auto sm:mr-6"
+          src={img}
+          alt="Arif"
+        />
+        <p className="text-center sm:text-left mt-4 sm:mt-0">
+          Hi, I'm Arif. I work with websites and apps. I've been doing this for
+          about a year and have completed various projects. I find joy in
+          creating things on the web, and I aspire to keep growing in this
+          field.
+        </p>
+      </div>
+
+      <h3 className="text-xl font-bold mt-4">Skills & Interests</h3>
+      <ul className="list-disc ml-6">
+        <li>
+          Frontend: I'm skilled in React, JavaScript, HTML, CSS, and making
+          websites look nice.
+        </li>
+        <li>
+          Backend: I work with Node.js, databases like MongoDB, and server-side
+          technologies.
+        </li>
+        <li>
+          Learning: I'm always eager to learn new technologies and improve my
+          skills.
+        </li>
+      </ul>
+
+      <h3 className="text-xl font-bold mt-4">Career Goals</h3>
+      <p>
+        I'm looking for opportunities to work in companies where I can
+        contribute my skills and, at the same time, continue learning and
+        growing.
+      </p>
+
+      <h3 className="text-xl font-bold mt-4">Hobbies</h3>
+      <p>
+        Outside of work, I enjoy reading books, learning new things, and
+        organizing activities.
+      </p>
+    </div>
+  );
 };
 
 export default About;
