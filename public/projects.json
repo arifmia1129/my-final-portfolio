@@ -6,7 +6,7 @@
     "description": [
       "Whether you're a passenger looking to book a seat",
       "A bus owner managing bus & trips",
-      "an admin overseeing the system, or a super admin with ultimate control"
+      "An admin overseeing the system, or a super admin with ultimate control"
     ],
     "technology": [
       "Next.js",
@@ -43,41 +43,104 @@
   {
     "id": 16,
     "name": "Smart Tech PC Builder",
-    "shortDescription": "Welcome to the Bus Ticket Booking Website! This platform is designed to facilitate the booking of bus tickets.",
+    "shortDescription": "Welcome to the Smart Tech PC Builder website! To create a user-friendly platform where users can build their own PC by selecting various components.",
     "description": [
-      "Whether you're a passenger looking to book a seat",
-      "A bus owner managing bus & trips",
-      "an admin overseeing the system, or a super admin with ultimate control"
+      "Detailed information is available for each PC component, including image, name, category, availability status, price, description, key features, individual rating, average rating, and reviews.",
+      "Users can select components to build their PC in the PC Builder page.",
+      "The PC Builder page is protected, and only logged-in users can access it."
     ],
-    "technology": [
-      "Next.js",
-      "Ant Design",
-      "Typescript",
-      "Redux",
-      "Express.js",
-      "MongoDB"
-    ],
+    "technology": ["Next.js", "Ant Design", "Redux", "MongoDB"],
     "img": [
-      "https://i.ibb.co/pf2Q0zF/screencapture-fast-bus-ticket-vercel-app-2023-10-27-07-31-36.png",
-      "https://i.ibb.co/h190S1T/screencapture-fast-bus-ticket-vercel-app-dashboard-admin-2023-10-27-07-32-31.png",
-      "https://i.ibb.co/wJjqf2F/screencapture-fast-bus-ticket-vercel-app-login-2023-10-27-07-32-03.png"
+      "https://i.ibb.co/8nywPjN/screencapture-smart-tech-arifmia1129-vercel-app-2023-10-27-08-52-02.png",
+      "https://i.ibb.co/hMZyt6g/screencapture-smart-tech-arifmia1129-vercel-app-pc-builder-2023-10-27-08-52-34.png",
+      "https://i.ibb.co/JndHGnx/screencapture-smart-tech-arifmia1129-vercel-app-login-2023-10-27-08-53-06.png"
     ],
     "link": [
       {
         "name": "Live Site",
-        "link": "https://fast-bus-ticket.vercel.app"
+        "link": "https://smart-tech-arifmia1129.vercel.app/"
+      },
+      {
+        "name": "Github",
+        "link": "https://github.com/arifmia1129/smart-tech-nextjs-project"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Book Catalog Web Application",
+    "shortDescription": "Created a user-friendly Book Catalog Application with authentication, allowing users to explore, add, and manage their reading wishlist and reading list.",
+    "description": [
+      "Developed a user-friendly Book Catalog Application using React and Redux Toolkit, enabling users to explore a vast collection of books and manage their reading preferences.",
+      "Implemented secure authentication features, allowing users to create accounts, log in, and access personalized wishlists and reading lists, enhancing the overall user experience.",
+      "Utilized Typescript, RTK Query, and Express, ensuring a seamless frontend and backend integration while providing a smooth, error-free experience for book enthusiasts."
+    ],
+    "technology": ["React.js", "Redux", "Express.js", "MongoDB"],
+    "img": [
+      "https://i.ibb.co/vkXFcjC/screencapture-book-catalog-client-flame-vercel-app-2023-10-27-09-09-02.png",
+      "https://i.ibb.co/31p2mzW/screencapture-book-catalog-client-flame-vercel-app-book-reading-list-2023-10-27-09-08-42.png",
+      "https://i.ibb.co/nrWBFX3/screencapture-book-catalog-client-flame-vercel-app-login-2023-10-27-09-08-26.png"
+    ],
+    "link": [
+      {
+        "name": "Live Site",
+        "link": "https://book-catalog-client-flame.vercel.app/"
       },
       {
         "name": "Github Client",
-        "link": "https://github.com/arifmia1129/fast-ticket-client"
+        "link": "https://github.com/arifmia1129/book-catalog-client"
       },
       {
         "name": "Github Server",
-        "link": "https://github.com/arifmia1129/fast-ticket-backend"
+        "link": "https://github.com/arifmia1129/book-catalog-server"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Book Catalog Backend With PostgreSQL and Prisma",
+    "shortDescription": "Supporting CRUD operations and user authentication. Seamlessly managed users, categories, books, and orders with secure role-based access.",
+    "description": [
+      "Developed a robust backend for a Book Listing Application using TypeScript, Express, Prisma, and PostgreSQL. Implemented CRUD operations, pagination, and filtering, enabling efficient management of users, categories, books, and orders.",
+      "Designed and implemented secure user authentication, allowing users to sign up, log in, and access personalized features based on their roles. The application supports both admin and customer roles, ensuring a smooth user experience.",
+      "Created a comprehensive API with well-documented endpoints for user management, category handling, book listings, and order processing, meeting the project's requirements while offering a seamless and reliable experience."
+    ],
+    "technology": ["Express.js", "Typescript", "PostgreSQL", "Prisma"],
+    "img": [
+      "https://i.ibb.co/1byx0DR/screencapture-documenter-getpostman-view-21701595-2s9-YRFVVn-M-2023-10-27-09-33-54.png"
+    ],
+    "link": [
+      {
+        "name": "Github",
+        "link": "https://github.com/arifmia1129/book-catalog-backend-with-prisma"
       },
       {
         "name": "Postman Documentation",
-        "link": "https://documenter.getpostman.com/view/21701595/2s9YR9ZYop#9ce64229-643c-42b9-97a3-2ff16eef50b3"
+        "link": "https://documenter.getpostman.com/view/21701595/2s9YRFVVnM"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Digital Cow Hut(Store)",
+    "shortDescription": "Developed a TypeScript backend for an Online Cow Selling platform, enabling CRUD operations, error handling, and simulated transactions for Eid Ul Adha.",
+    "description": [
+      "Created a resilient backend system for an Online Cow Selling platform, tailored for Eid Ul Adha preparations. It incorporates TypeScript, Express.js, and Mongoose to handle key functionalities.",
+      "Implemented comprehensive error handling and developed user and cow models with essential attributes, ensuring data integrity and smooth user experiences.",
+      "Designed API routes for creating, reading, updating, and deleting user and cow profiles. Additionally, a transactional system was introduced for cow purchases, including fund transfers and order history management."
+    ],
+    "technology": ["Express.js", "Typescript", "MongoDB", "Mongoose", "Zod"],
+    "img": [
+      "https://i.ibb.co/8D3LWBC/screencapture-documenter-getpostman-view-21701595-2s9-YRFVVrk-2023-10-27-09-47-49.png"
+    ],
+    "link": [
+      {
+        "name": "Github",
+        "link": "https://github.com/arifmia1129/Digital-cow-hut-backend-typescript"
+      },
+      {
+        "name": "Postman Documentation",
+        "link": "https://documenter.getpostman.com/view/21701595/2s9YRFVVrk"
       }
     ]
   },

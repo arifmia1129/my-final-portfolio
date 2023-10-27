@@ -130,7 +130,7 @@ const Navbar = () => {
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://drive.google.com/file/d/11irnh5Jkc602fltInnGRIenQofZeysb0/view?usp=sharing"
+          href="https://drive.google.com/file/d/108UxhkwdJVqY5b9iQ_1J5Yfn6ffktRVl/view?usp=drive_link"
           className="border-white border-2 px-5 py-2 rounded-lg"
         >
           Resume
