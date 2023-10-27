@@ -1,25 +1,72 @@
-import React from 'react';
-import Skill from './Skill';
+import React from "react";
+import Skill from "./Skill";
 
 const Skills = () => {
-    const skills = [
-        { id: 1, name: "Frontend", skills: ["React JS", "Javascript", "Firebase", "HTML", "CSS"] },
-        { id: 2, name: "Backend", skills: ["Node JS", "MongoDB", "Express JS", "Stripe", "Sendgrid"] },
-        { id: 3, name: "Others", skills: ["VS Code", "Github", "Chrome Dev Tools", "Figma", "Netlify, Heroku"] },
-    ]
-    return (
-        <div>
-            <h3 className='text-primary text-2xl text-center font-bold'>Skills Overview</h3>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
-                {
-                    skills.map(skill => <Skill
-                        key={skill.id}
-                        skill={skill}
-                    />)
-                }
-            </div>
-        </div >
-    );
+  const skills = [
+    {
+      id: 1,
+      name: "Frontend",
+      skills: [
+        "Javascript",
+        "React",
+        "React Native",
+        "Redux",
+        "Next JS",
+        "Bootstrap & Tailwind",
+      ],
+    },
+    {
+      id: 2,
+      name: "Backend",
+      skills: [
+        "Node.js",
+        "Express.js",
+        "Typescript",
+        "Mongoose",
+        "Prisma",
+        "Redis",
+      ],
+    },
+    {
+      id: 3,
+      name: "Database",
+      skills: ["MongoDB", "PostgreSQL"],
+    },
+    {
+      id: 4,
+      name: "Deployment",
+      skills: ["CPanel", "Netlify", "Vercel", "Firebase", "Heroku"],
+    },
+    {
+      id: 5,
+      name: "Tools",
+      skills: [
+        "Github",
+        "VS Code",
+        "Chrome DevTools",
+        "Photoshop",
+        "Figma",
+        "Jira",
+      ],
+    },
+    {
+      id: 6,
+      name: "Other",
+      skills: ["Dart", "Flutter", "C Programming"],
+    },
+  ];
+  return (
+    <div>
+      <h3 className="text-primary text-4xl text-center font-bold mb-5 mt-10">
+        SKILLS OVERVIEW
+      </h3>
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-10">
+        {skills.map((skill) => (
+          <Skill key={skill.id} skill={skill} />
+        ))}
+      </div>
+    </div>
+  );
 };
 
 export default Skills;

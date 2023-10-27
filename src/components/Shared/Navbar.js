@@ -8,19 +8,64 @@ const Navbar = () => {
   const menutItems = (
     <>
       <li>
-        <NavLink to="/">Home</NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            isActive
+              ? "border-white text-white border-2 bg-primary"
+              : "font-bold text-white"
+          }
+          to="/"
+        >
+          Home
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/allproject">Projects</NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            isActive
+              ? "border-white text-white border-2 bg-primary"
+              : "font-bold text-white"
+          }
+          to="/allproject"
+        >
+          Projects
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/blogs">Blogs</NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            isActive
+              ? "border-white text-white border-2 bg-primary"
+              : "font-bold text-white"
+          }
+          to="/blogs"
+        >
+          Blogs
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/contact">Contact</NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            isActive
+              ? "border-white text-white border-2 bg-primary"
+              : "font-bold text-white"
+          }
+          to="/contact"
+        >
+          Contact
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/about">About</NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            isActive
+              ? "border-white text-white border-2 bg-primary"
+              : "font-bold text-white"
+          }
+          to="/about"
+        >
+          About
+        </NavLink>
       </li>
     </>
   );
@@ -58,7 +103,7 @@ const Navbar = () => {
             rel="noreferrer"
             href="https://github.com/arifmia1129"
           >
-            <FiGithub />
+            <FiGithub size={25} />
           </a>
           <a
             className="mx-3"
@@ -66,7 +111,7 @@ const Navbar = () => {
             rel="noreferrer"
             href="https://www.linkedin.com/in/arifmia"
           >
-            <ImLinkedin2 />
+            <ImLinkedin2 size={25} />
           </a>
           <a
             className="mx-3"
@@ -74,7 +119,7 @@ const Navbar = () => {
             rel="noreferrer"
             href="https://stackoverflow.com/users/18394074/arif"
           >
-            <BsStackOverflow />
+            <BsStackOverflow size={25} />
           </a>
         </div>
       </div>
@@ -86,7 +131,7 @@ const Navbar = () => {
           target="_blank"
           rel="noreferrer"
           href="https://drive.google.com/file/d/11irnh5Jkc602fltInnGRIenQofZeysb0/view?usp=sharing"
-          className="border-white border-2 p-1 rounded-lg"
+          className="border-white border-2 px-5 py-2 rounded-lg"
         >
           Resume
         </a>
