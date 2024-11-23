@@ -30,12 +30,12 @@ const Skills = () => {
     {
       id: 3,
       name: "Database",
-      skills: ["MongoDB", "PostgreSQL"],
+      skills: ["MongoDB", "PostgreSQL", "MySQL"],
     },
     {
       id: 4,
       name: "Deployment",
-      skills: ["CPanel", "Netlify", "Vercel", "Firebase", "Heroku"],
+      skills: ["CPanel", "Webuzo", "Netlify", "Vercel", "Firebase", "Heroku"],
     },
     {
       id: 5,
@@ -60,7 +60,7 @@ const Skills = () => {
       <h3 className="text-primary text-4xl text-center font-bold mb-5 mt-10">
         SKILLS OVERVIEW
       </h3>
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
         {skills.map((skill) => (
           <Skill key={skill.id} skill={skill} />
         ))}

@@ -15,13 +15,14 @@ const HomeBanner = () => {
         />
         <div className="text-white">
           <h1 className="text-4xl font-bold">Md. Arif Mia</h1>
-          <p className="pb-3 font-bold text-xl">Web Developer (MERN)</p>
+          <p className="pb-3 font-bold text-xl">Software Developer</p>
           <p className="pb-6 text-lg">
             I'm passionate about creating web and mobile applications using
             technologies like{" "}
             <span className="font-bold">
               Javascript, Typescript, React.js, React Native, Expo, Next.js,
-              Redux, Node.js,Express.js, MongoDB, Mongoose, PostgreSQL, Prisma
+              Redux, Node.js,Express.js, MongoDB, Mongoose, PostgreSQL, Prisma,
+              Drizzle, PHP, Laravel, MySQL
             </span>
             . I've developed mobile apps and websites for various projects. With
             strong educational and professional backgrounds, I'm dedicated to
@@ -31,6 +32,25 @@ const HomeBanner = () => {
 
           <div>
             <p className="font-bold text-xl">Work Experience:</p>
+            <p className="font-bold text-md">1. Software Developer at</p>
+            <div className="flex items-center">
+              <p className="font-bold text-xl pr-2">
+                Supreme Supports Pty Ltd,{" "}
+                <small>Penrith, NSW,Australia (Remote)</small>
+              </p>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.supremesupports.com.au"
+              >
+                <FaExternalLinkAlt size={12} />
+              </a>
+            </div>
+            <p>
+              <small className="font-bold">December 2024 to Present</small>
+            </p>
+          </div>
+          <div className="mt-10">
             <p className="font-bold text-md">React Developer at</p>
             <div className="flex items-center">
               <p className="font-bold text-xl pr-2">Seba Automation</p>

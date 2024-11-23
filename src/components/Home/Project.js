@@ -10,8 +10,8 @@ const Project = ({ project }) => {
         <img src={img[0]} alt="" />
       </div>
       <div className="card-body">
-        <h2 className="text-2xl font-bold text-center mb-5">{name}</h2>
-        <div className="h-24">
+        <h2 className="text-md font-bold text-center mb-2">{name}</h2>
+        <div className="min-h-16">
           <p>{shortDescription}</p>
         </div>
         <div className="grid grid-cols-2">
