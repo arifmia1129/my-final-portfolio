@@ -47,7 +47,7 @@ const HomeBanner = () => {
               </a>
             </div>
             <p>
-              <small className="font-bold">December 2024 to Present</small>
+              <small className="font-bold">December 2023 to Present</small>
             </p>
           </div>
           <div className="mt-10">
